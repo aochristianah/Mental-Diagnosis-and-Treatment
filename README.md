@@ -15,7 +15,7 @@ This project focuses on the analysis and visualization of mental health diagnosi
 - Sleep Quality (1-10): Patient-reported sleep quality.
 - Physical Activity: Hours per week of activity.
 - Medication: Medications prescribed (e.g., SSRIs, Antidepressants).
-- Therapy Type: Type of therapy (e.g., CBT, DBT).
+- Therapy Type: Type of therapy (e.g., Cognitive Behavioral Therapy, Dialectical Behavioral Therapy).
 - Treatment Start Date: Date treatment started.
 - Treatment Duration: Duration of treatment in weeks.
 - Stress Level (1-10): Patient's stress level.
@@ -34,6 +34,12 @@ This project focuses on the analysis and visualization of mental health diagnosi
 - Overall Improvement Rate.
 
 ## Analysis Steps
+- Defined the problem and set the objective.
+- Understanding the data: The data used was reviewed to understand its structure, variables and data types.
+- Import data
+- Data cleaning and prepation: Removed duplicate, checked for blanks, standardized categorical values and created consistent age group.
+- Data Transformation: New metrics and calculate feilds were created to support analysis.
+- Exploratory Data Analysis: EDA was conducted to identify patterns and trends
 
 ## Power BI Dasshboard
 <img width="1281" height="727" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/1ec967be-804e-4456-95cd-0a78ad5be329" />
