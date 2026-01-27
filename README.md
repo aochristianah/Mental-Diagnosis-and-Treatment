@@ -45,6 +45,7 @@ This project focuses on the analysis and visualization of mental health diagnosi
 
 ## DAX Formulas used
 - Number of Patients
+
 Count of Patient ID = COUNT('in'[Patient ID])
 - Improvement Rate
 Improvement Rate = DIVIDE(CALCULATE(COUNTROWS('in'),'in'[Outcome]= "Improved"), COUNTROWS('in')) 
