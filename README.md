@@ -36,13 +36,25 @@ This project focuses on the analysis and visualization of mental health diagnosi
 ## Analysis Steps
 - Defined the problem and set the objective.
 - Understood the data: The data used was reviewed to understand its structure, variables and data types.
-- Import data
+- Import data.
 - Data cleaning and prepation: Removed duplicate, checked for blanks, standardized categorical values and created consistent age group.
 - Data Transformation: New metrics and calculate feilds were created to support analysis.
-- Exploratory Data Analysis: EDA was conducted to identify patterns and trends: Analyzed patient count distribution across diagnosis, compared age group distributions across mental health conditions. analysed symptom level levels by diagnosis.
-- KPI Defintion and Validation.
+- Exploratory Data Analysis: EDA was conducted to identify patterns and trends: Analyzed patient count distribution across diagnosis, compared age group distributions across mental health conditions. analysed symptom level by diagnosis.
+- KPI Definition and Validation.
 - Dashboard design and Visualization.
 
+## DAX Formulas used
+- Number of Patients
+Count of Patient ID = COUNT('in'[Patient ID])
+- Improvement Rate
+Improvement Rate = DIVIDE(CALCULATE(COUNTROWS('in'),'in'[Outcome]= "Improved"), COUNTROWS('in')) 
+- Average Adherence 
+Average Adherence = AVERAGE('in'[Adherence to Treatment (%)]) 
+- Average Age
+Average Age = AVERAGE('in'[Age]) 
+- Age Group 
+Age Group = SWITCH(TRUE(), 'in'[Age]<20,"0-19", 'in'[Age]<40, "20-39", 'in'[Age]<60, "40-59", "60+")
+  
 ## Power BI Dasshboard
 <img width="1281" height="727" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/1ec967be-804e-4456-95cd-0a78ad5be329" />
 
