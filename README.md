@@ -35,7 +35,7 @@ This project focuses on the analysis and visualization of mental health diagnosi
 
 ## Analysis Steps
 - Defined the problem and set the objective.
-- Understanding the data: The data used was reviewed to understand its structure, variables and data types.
+- Understood the data: The data used was reviewed to understand its structure, variables and data types.
 - Import data
 - Data cleaning and prepation: Removed duplicate, checked for blanks, standardized categorical values and created consistent age group.
 - Data Transformation: New metrics and calculate feilds were created to support analysis.
@@ -47,9 +47,16 @@ This project focuses on the analysis and visualization of mental health diagnosi
 <img width="1281" height="727" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/1ec967be-804e-4456-95cd-0a78ad5be329" />
 
 ## Project Insights
-
+- Generalised Anxiety Disorder has the highest number of patient in the dataset, making it the most mental health condition among patients.
+- Only about one-third patients showed improvement after treatment, while the rest experienced no change or their condition worsened.
+- Patient who adhered more closely to thier tratment plans were more likely to fall into the "Improved" outcome category.
+- Among the therapy type analyzed, Interpersonal Therapy recorded the highest average treatment progress score.
+- Negative emotional states such as anxiety, stress and depression are highly common among patients.
+- Most patients fall withi the age range of 20-59, showing that mental health issues are most concentrated among working-age individuals.
+- Some patients recieved long-term treatment and still showed no improvement or even deterioration, indicating inefficiencies in treatment plans.
 
 ## Recommendations
+-
 
 ## Conclusion
-
+Overall, this dashboard shows that mental health outcome depend heavily on treatment type, patient adherence, personalization of care and regularly evaluating treatment effectiveness can significantly improve patient outcomes.
