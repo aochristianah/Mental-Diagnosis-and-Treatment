@@ -48,12 +48,16 @@ This project focuses on the analysis and visualization of mental health diagnosi
 
 Count of Patient ID = COUNT('in'[Patient ID])
 - Improvement Rate
+
 Improvement Rate = DIVIDE(CALCULATE(COUNTROWS('in'),'in'[Outcome]= "Improved"), COUNTROWS('in')) 
 - Average Adherence 
+
 Average Adherence = AVERAGE('in'[Adherence to Treatment (%)]) 
 - Average Age
+
 Average Age = AVERAGE('in'[Age]) 
 - Age Group 
+
 Age Group = SWITCH(TRUE(), 'in'[Age]<20,"0-19", 'in'[Age]<40, "20-39", 'in'[Age]<60, "40-59", "60+")
   
 ## Power BI Dasshboard
