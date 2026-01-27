@@ -49,7 +49,7 @@ This project focuses on the analysis and visualization of mental health diagnosi
 ## Project Insights
 - Generalised Anxiety Disorder has the highest number of patient in the dataset, making it the most common mental health condition among patients.
 - Only about one-third patients showed improvement after treatment, while the rest experienced no change or their condition worsened.
-- Patient who adhered more closely to thier tratment plans were more likely to fall into the "Improved" outcome category.
+- Patient who adhered more closely to thier treatment plans were more likely to fall into the "Improved" outcome category.
 - Among the therapy type analyzed, Interpersonal Therapy recorded the highest average treatment progress score.
 - Negative emotional states such as anxiety, stress and depression are highly common among patients.
 - Most patients fall withi the age range of 20-59, showing that mental health issues are most concentrated among working-age individuals.
