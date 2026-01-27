@@ -47,7 +47,7 @@ This project focuses on the analysis and visualization of mental health diagnosi
 <img width="1281" height="727" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/1ec967be-804e-4456-95cd-0a78ad5be329" />
 
 ## Project Insights
-- Generalised Anxiety Disorder has the highest number of patient in the dataset, making it the most mental health condition among patients.
+- Generalised Anxiety Disorder has the highest number of patient in the dataset, making it the most common mental health condition among patients.
 - Only about one-third patients showed improvement after treatment, while the rest experienced no change or their condition worsened.
 - Patient who adhered more closely to thier tratment plans were more likely to fall into the "Improved" outcome category.
 - Among the therapy type analyzed, Interpersonal Therapy recorded the highest average treatment progress score.
