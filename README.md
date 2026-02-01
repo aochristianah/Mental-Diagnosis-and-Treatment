@@ -61,7 +61,7 @@ Average Age = AVERAGE('in'[Age])
 Age Group = SWITCH(TRUE(), 'in'[Age]<20,"0-19", 'in'[Age]<40, "20-39", 'in'[Age]<60, "40-59", "60+")
   
 ## Power BI Dasshboard
-<img width="1281" height="727" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/1ec967be-804e-4456-95cd-0a78ad5be329" />
+<img width="1281" height="727" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/1ec967be-804e-4456-95cd-0a78ad5be329"
 
 ## Project Insights
 - Generalised Anxiety Disorder has the highest number of patient in the dataset, making it the most common mental health condition among patients.
@@ -73,7 +73,13 @@ Age Group = SWITCH(TRUE(), 'in'[Age]<20,"0-19", 'in'[Age]<40, "20-39", 'in'[Age]
 - Some patients recieved long-term treatment and still showed no improvement or even deterioration, indicating inefficiencies in treatment plans.
 
 ## Recommendations
--
+- Stronger focus should be placed on anxiety-related care by improving early screening and increase the number of specialist available.
+- There is a need to review existing treatment approach adopt more personalized plans that match patient needs and conditions.
+- Mental health services should invest in systems that help with patient follow-up, reminders, and education programs that encourage patients to stay consistent with their treatment plans.
+- Interpersonal therapy method should be more widely adopted and its techniques can be blended into other therapy models to improve overall effectiveness.
+- For the age group 20-59, workplace mental health programs and flexible support services should be developed.
+- Mental health care should include emotional support programs and counselling services.
+- Regular treatment evaluations should be introduced so ineffective approaches can be changed early instead of continuing unproductive care. 
 
 ## Conclusion
 Overall, this dashboard shows that mental health outcome depend heavily on treatment type, patient adherence, personalization of care and regularly evaluating treatment effectiveness can significantly improve patient outcomes.
